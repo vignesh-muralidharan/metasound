@@ -1373,3 +1373,694 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2026.04.06-01.06.59:832][912]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (0%)
 [2026.04.06-01.06.59:832][912]LogShaderCompilers: Display: Material Cache Hits: 0 (0%)
 [2026.04.06-01.06.59:832][912]LogShaderCompilers: Display: ================================================
+[2026.04.06-01.09.32:922][371]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 348.071625
+[2026.04.06-01.09.33:922][374]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.04.06-01.09.33:922][374]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 348.738434, Update Interval: 334.661102
+[2026.04.06-01.10.10:999][588]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.04.06-01.10.11:002][588]LogContentBundle: [Lvl_ThirdPerson(Editor)] Generating Streaming for 0 Content Bundles.
+[2026.04.06-01.10.11:002][588]LogWorldPartition: Display: GenerateStreaming for 'Lvl_ThirdPerson' started...
+[2026.04.06-01.10.11:003][588]LogWorldPartition: Display: GenerateStreaming for 'Lvl_ThirdPerson' took 828 us
+[2026.04.06-01.10.11:004][588]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.04.06-01.10.11:043][588]LogPlayLevel: Display: Creating online subsystem for client :Context_1
+[2026.04.06-01.10.11:045][588]LogOnline: OSS: Created online subsystem instance for: :Context_1
+[2026.04.06-01.10.11:086][589]LogPlayLevel: Creating play world package: /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson
+[2026.04.06-01.10.11:102][589]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2026.04.06-01.10.11:104][589]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 1.257 ms
+[2026.04.06-01.10.11:104][589]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017958s)
+[2026.04.06-01.10.11:104][589]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson to /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson (0.018023s)
+[2026.04.06-01.10.11:159][589]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2026.04.06-01.10.11:161][589]LogChaosDD: Creating Chaos Debug Draw Scene for world Lvl_ThirdPerson
+[2026.04.06-01.10.11:162][589]LogWorldPartition: ULevel::OnLevelLoaded(Lvl_ThirdPerson)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2026.04.06-01.10.11:162][589]LogWorldPartition: Display: WorldPartition initialize started...
+[2026.04.06-01.10.11:162][589]LogWorldPartition: UWorldPartition::Initialize : World = /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2026.04.06-01.10.11:162][589]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2026.04.06-01.10.11:163][589]LogWorldPartition: Display: WorldPartition initialize took 1.224 ms (total: 86.563 ms)
+[2026.04.06-01.10.11:163][589]LogPlayLevel: PIE: World Init took: (0.002883s)
+[2026.04.06-01.10.11:209][589]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2026.04.06-01.10.11:209][589]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.04.06-01.10.11:209][589]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.04.06-01.10.11:209][589]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.04.06-01.10.11:209][589]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.04.06-01.10.11:209][589]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.04.06-01.10.11:209][589]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.04.06-01.10.11:209][589]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.04.06-01.10.11:209][589]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.04.06-01.10.11:209][589]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.04.06-01.10.11:209][589]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.04.06-01.10.11:209][589]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.04.06-01.10.11:211][589]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.04.06-01.10.11:234][589]LogAudioMixer: Display: Using Audio Hardware Device Speakers (2- USB Audio CODEC )
+[2026.04.06-01.10.11:235][589]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.04.06-01.10.11:235][589]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.04.06-01.10.11:235][589]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.04.06-01.10.11:235][589]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=2
+[2026.04.06-01.10.11:235][589]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=2
+[2026.04.06-01.10.11:237][589]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=2
+[2026.04.06-01.10.11:237][589]LogInit: FAudioDevice initialized with ID 2.
+[2026.04.06-01.10.11:237][589]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=2
+[2026.04.06-01.10.11:237][589]LogAudio: Display: Audio Device (ID: 2) registered with world 'Lvl_ThirdPerson'.
+[2026.04.06-01.10.11:237][589]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 2
+[2026.04.06-01.10.11:242][589]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2026.04.06-01.10.11:255][589]LogWorld: Bringing World /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson up for play (max tick rate 0) at 2026.04.05-21.10.11
+[2026.04.06-01.10.11:263][589]LogWorld: Bringing up level for play took: 0.009670
+[2026.04.06-01.10.11:663][589]PIE: Server logged in
+[2026.04.06-01.10.11:665][589]PIE: Play in editor total start time 0.662 seconds.
+[2026.04.06-01.10.11:710][590]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.04.06-01.10.11:848][591]LogPSOHitching: Encountered 200 PSO creation hitches so far (45 graphics, 155 compute). 0 of them were precached.
+[2026.04.06-01.10.19:137][167]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.04.06-01.10.19:137][167]LogWorld: BeginTearingDown for /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson
+[2026.04.06-01.10.19:137][167]LogWorld: UWorld::CleanupWorld for Lvl_ThirdPerson, bSessionEnded=true, bCleanupResources=true
+[2026.04.06-01.10.19:444][167]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.04.06-01.10.19:444][167]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson
+[2026.04.06-01.10.19:445][167]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.04.06-01.10.19:448][167]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.04.06-01.10.19:463][167]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.04.06-01.10.19:463][167]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 2
+[2026.04.06-01.10.19:463][167]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2, StreamState=4
+[2026.04.06-01.10.19:465][167]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2, StreamState=2
+[2026.04.06-01.10.19:484][167]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2026.04.06-01.10.19:505][168]LogPlayLevel: Display: Destroying online subsystem :Context_1
+[2026.04.06-01.10.28:171][849]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2026.04.06-01.10.28:193][849]LogContentBrowser: Creating deferred item: NewFolder
+[2026.04.06-01.10.28:204][850]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2026.04.06-01.10.30:593][ 60]LogContentBrowser: Attempting asset rename: NewFolder -> Metasound
+[2026.04.06-01.10.30:593][ 60]LogContentBrowser: End creating deferred item NewFolder
+[2026.04.06-01.10.35:791][462]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2026.04.06-01.10.35:799][462]LogContentBrowser: Creating deferred item: NewFolder
+[2026.04.06-01.10.35:807][463]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2026.04.06-01.10.40:016][818]LogContentBrowser: Attempting asset rename: NewFolder -> Blueprints
+[2026.04.06-01.10.40:016][818]LogContentBrowser: End creating deferred item NewFolder
+[2026.04.06-01.11.07:487][ 71]LogSlate: Window 'Pick Parent Class' being destroyed
+[2026.04.06-01.11.16:935][718]LogContentBrowser: Deferred new asset file creation: NewMetaSoundSource
+[2026.04.06-01.11.16:942][718]LogContentBrowser: Creating deferred item: NewMetaSoundSource
+[2026.04.06-01.11.16:991][720]LogContentBrowser: Renaming the item being created (Deferred Item: NewMetaSoundSource).
+[2026.04.06-01.11.19:858][967]LogContentBrowser: Attempting asset rename: NewMetaSoundSource -> Music
+[2026.04.06-01.11.20:324][967]LogContentBrowser: End creating deferred item NewMetaSoundSource
+[2026.04.06-01.11.20:721][  0]LogAssetEditorSubsystem: Opening Asset editor for MetaSoundSource /Game/Metasound/Music.Music
+[2026.04.06-01.11.21:060][  0]LogSlate: The tab "MetasoundEditor_Pages" attempted to spawn in layout 'Standalone_MetasoundEditor_Layout_v15' but failed for some reason. It will not be displayed.
+[2026.04.06-01.11.21:060][  0]LogSlate: The tab "MetasoundEditor_UserPresetWidget" attempted to spawn in layout 'Standalone_MetasoundEditor_Layout_v15' but failed for some reason. It will not be displayed.
+[2026.04.06-01.11.21:060][  0]LogSlate: The tab "MetasoundEditor_UserPresetWidget" attempted to spawn in layout 'Standalone_MetasoundEditor_Layout_v15' but failed for some reason. It will not be displayed.
+[2026.04.06-01.11.21:304][  0]LogSlate: Took 0.000246 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2026.04.06-01.11.21:667][  1]LogMetaSound: Display: Async MetaSound Load/Asset Tag Prime Complete
+[2026.04.06-01.11.37:800][483]LogSlate: Window 'Music' being destroyed
+[2026.04.06-01.11.42:977][894]LogContentBrowser: Attempting asset rename: Music -> MSS_Music
+[2026.04.06-01.11.43:448][894]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.04.06-01.11.43:448][894]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Metasound/MSS_Music] ([1] browsable assets)...
+[2026.04.06-01.11.43:448][894]OBJ SavePackage: Finished generating thumbnails for package [/Game/Metasound/MSS_Music]
+[2026.04.06-01.11.43:448][894]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Metasound/MSS_Music" FILE="../../../../../College/Projects/797/Focus Project/metasound/generative_music/Content/Metasound/MSS_Music.uasset" SILENT=true
+[2026.04.06-01.11.43:484][894]LogSavePackage: Moving output files for package: /Game/Metasound/MSS_Music
+[2026.04.06-01.11.43:484][894]LogSavePackage: Moving '../../../../../College/Projects/797/Focus Project/metasound/generative_music/Saved/MSS_Music7CD4034F4173851B0D3100A07CEC1E28.tmp' to '../../../../../College/Projects/797/Focus Project/metasound/generative_music/Content/Metasound/MSS_Music.uasset'
+[2026.04.06-01.11.43:485][894]LogFileHelpers: InternalPromptForCheckoutAndSave took 37.382 ms
+[2026.04.06-01.11.43:556][894]LogUObjectHash: Compacting FUObjectHashTables data took   0.41ms
+[2026.04.06-01.11.43:573][894]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2026.04.06-01.11.43:588][894]LogUObjectHash: Compacting FUObjectHashTables data took   0.21ms
+[2026.04.06-01.11.43:637][894]LogContentValidation: Display: Starting to validate 1 assets
+[2026.04.06-01.11.43:637][894]LogContentValidation: Enabled validators:
+[2026.04.06-01.11.43:637][894]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.04.06-01.11.43:637][894]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.04.06-01.11.43:637][894]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.04.06-01.11.43:637][894]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.04.06-01.11.43:637][894]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.04.06-01.11.43:637][894]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.04.06-01.11.43:656][894]AssetCheck: /Game/Metasound/MSS_Music Validating asset
+[2026.04.06-01.11.43:687][894]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../College/Projects/797/Focus Project/metasound/generative_music/Saved/SourceControl/UncontrolledChangelists.json
+[2026.04.06-01.11.45:207][ 20]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.04.06-01.11.45:268][ 20]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Metasound/MSS_Music] ([1] browsable assets)...
+[2026.04.06-01.11.45:268][ 20]OBJ SavePackage: Finished generating thumbnails for package [/Game/Metasound/MSS_Music]
+[2026.04.06-01.11.45:268][ 20]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Metasound/MSS_Music" FILE="../../../../../College/Projects/797/Focus Project/metasound/generative_music/Content/Metasound/MSS_Music.uasset" SILENT=true
+[2026.04.06-01.11.45:278][ 20]LogSavePackage: Moving output files for package: /Game/Metasound/MSS_Music
+[2026.04.06-01.11.45:278][ 20]LogSavePackage: Moving '../../../../../College/Projects/797/Focus Project/metasound/generative_music/Saved/MSS_MusicA8B21AAF4A2C39C84B45AA8EFD3584F9.tmp' to '../../../../../College/Projects/797/Focus Project/metasound/generative_music/Content/Metasound/MSS_Music.uasset'
+[2026.04.06-01.11.45:287][ 20]LogFileHelpers: InternalPromptForCheckoutAndSave took 80.417 ms (total: 117.799 ms)
+[2026.04.06-01.11.45:346][ 20]LogContentValidation: Display: Starting to validate 1 assets
+[2026.04.06-01.11.45:346][ 20]LogContentValidation: Enabled validators:
+[2026.04.06-01.11.45:346][ 20]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.04.06-01.11.45:346][ 20]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.04.06-01.11.45:346][ 20]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.04.06-01.11.45:346][ 20]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.04.06-01.11.45:346][ 20]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.04.06-01.11.45:346][ 20]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.04.06-01.11.45:346][ 20]AssetCheck: /Game/Metasound/MSS_Music Validating asset
+[2026.04.06-01.11.45:766][ 51]LogAssetEditorSubsystem: Opening Asset editor for MetaSoundSource /Game/Metasound/MSS_Music.MSS_Music
+[2026.04.06-01.11.45:861][ 51]LogSlate: The tab "MetasoundEditor_Pages" attempted to spawn in layout 'Standalone_MetasoundEditor_Layout_v15' but failed for some reason. It will not be displayed.
+[2026.04.06-01.11.45:862][ 51]LogSlate: The tab "MetasoundEditor_UserPresetWidget" attempted to spawn in layout 'Standalone_MetasoundEditor_Layout_v15' but failed for some reason. It will not be displayed.
+[2026.04.06-01.11.45:862][ 51]LogSlate: The tab "MetasoundEditor_UserPresetWidget" attempted to spawn in layout 'Standalone_MetasoundEditor_Layout_v15' but failed for some reason. It will not be displayed.
+[2026.04.06-01.11.48:839][257]LogSlate: Window 'MSS_Music' being destroyed
+[2026.04.06-01.12.34:746][546]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2026.04.06-01.12.46:049][831]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.04.06-01.12.46:101][831]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Metasound/MSS_Music] ([1] browsable assets)...
+[2026.04.06-01.12.46:101][831]OBJ SavePackage: Finished generating thumbnails for package [/Game/Metasound/MSS_Music]
+[2026.04.06-01.12.46:101][831]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Metasound/MSS_Music" FILE="../../../../../College/Projects/797/Focus Project/metasound/generative_music/Content/Metasound/MSS_Music.uasset" SILENT=true
+[2026.04.06-01.12.46:114][831]LogSavePackage: Moving output files for package: /Game/Metasound/MSS_Music
+[2026.04.06-01.12.46:115][831]LogSavePackage: Moving '../../../../../College/Projects/797/Focus Project/metasound/generative_music/Saved/MSS_Music857EBE884309C84A97EBB4A93DAD6977.tmp' to '../../../../../College/Projects/797/Focus Project/metasound/generative_music/Content/Metasound/MSS_Music.uasset'
+[2026.04.06-01.12.46:123][831]LogFileHelpers: InternalPromptForCheckoutAndSave took 74.476 ms (total: 192.276 ms)
+[2026.04.06-01.12.46:166][831]LogContentValidation: Display: Starting to validate 1 assets
+[2026.04.06-01.12.46:167][831]LogContentValidation: Enabled validators:
+[2026.04.06-01.12.46:167][831]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.04.06-01.12.46:167][831]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.04.06-01.12.46:167][831]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.04.06-01.12.46:167][831]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.04.06-01.12.46:167][831]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.04.06-01.12.46:167][831]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.04.06-01.12.46:167][831]AssetCheck: /Game/Metasound/MSS_Music Validating asset
+[2026.04.06-01.12.59:919][413]LogShaderCompilers: Display: ================================================
+[2026.04.06-01.12.59:919][413]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2026.04.06-01.12.59:919][413]LogShaderCompilers: Display: Total job queries 2,542, among them cache hits 18 (0.71%), DDC hits 1,459 (57.40%), Duplicates 716 (28.17%)
+[2026.04.06-01.12.59:919][413]LogShaderCompilers: Display: Tracking 1,808 distinct input hashes that result in 1,137 distinct outputs (62.89%)
+[2026.04.06-01.12.59:919][413]LogShaderCompilers: Display: RAM used: 11.64 MiB of 3.20 GiB budget. Usage: 0.36%
+[2026.04.06-01.12.59:919][413]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2026.04.06-01.12.59:919][413]LogShaderCompilers: Display: Shaders Compiled: 349
+[2026.04.06-01.12.59:919][413]LogShaderCompilers: Display: Jobs assigned 349, completed 349 (100%)
+[2026.04.06-01.12.59:919][413]LogShaderCompilers: Display: Average time worker was idle: 5.37 s
+[2026.04.06-01.12.59:919][413]LogShaderCompilers: Display: Time job spent in pending queue: average 6.18 s, longest 16.99 s
+[2026.04.06-01.12.59:919][413]LogShaderCompilers: Display: Job execution time: average 3.72 s, max 9.71 s
+[2026.04.06-01.12.59:919][413]LogShaderCompilers: Display: Job life time (pending + execution): average 9.90 s, max 17.70
+[2026.04.06-01.12.59:919][413]LogShaderCompilers: Display: Shader code size: total 3.465 MiB, numShaders 372, average 9.539 KiB, min 2.246 KiB, max 51.403 KiB
+[2026.04.06-01.12.59:919][413]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 45.00 s
+[2026.04.06-01.12.59:919][413]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.09%
+[2026.04.06-01.12.59:919][413]LogShaderCompilers: Display: Jobs were issued in 112 batches (only local compilation was used), average 3.12 jobs/batch
+[2026.04.06-01.12.59:919][413]LogShaderCompilers: Display: Average processing rate: 7.76 jobs/sec
+[2026.04.06-01.12.59:919][413]LogShaderCompilers: Display: Total thread time: 198.84 s
+[2026.04.06-01.12.59:919][413]LogShaderCompilers: Display: Total thread preprocess time: 30.316 s
+[2026.04.06-01.12.59:919][413]LogShaderCompilers: Display: Percentage time preprocessing: 15.25%
+[2026.04.06-01.12.59:919][413]LogShaderCompilers: Display: Effective parallelization: 4.42 (times faster than compiling all shaders on one thread). Compare with number of workers: 8 - 0.552302
+[2026.04.06-01.12.59:919][413]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2026.04.06-01.12.59:919][413]LogShaderCompilers: Display:                          FPathTracingVolumetricCloudMaterial (compiled    1 times, average 5.29 sec, max 5.29 sec, min 5.29 sec)
+[2026.04.06-01.12.59:919][413]LogShaderCompilers: Display:                         TBasePassCSFNoLightMapPolicySkylight (compiled    1 times, average 2.13 sec, max 2.13 sec, min 2.13 sec)
+[2026.04.06-01.12.59:919][413]LogShaderCompilers: Display:                                 TBasePassCSFNoLightMapPolicy (compiled    1 times, average 2.13 sec, max 2.13 sec, min 2.13 sec)
+[2026.04.06-01.12.59:919][413]LogShaderCompilers: Display:                              FRayTracingDecalMaterialCHS_AHS (compiled    2 times, average 1.95 sec, max 2.06 sec, min 1.83 sec)
+[2026.04.06-01.12.59:919][413]LogShaderCompilers: Display:                      FPathTracingBuildCloudAccelerationMapCS (compiled    1 times, average 1.77 sec, max 1.77 sec, min 1.77 sec)
+[2026.04.06-01.12.59:919][413]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2026.04.06-01.12.59:919][413]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy - 12.07% of total time (compiled   15 times, average 1.60 sec, max 4.16 sec, min 0.79 sec)
+[2026.04.06-01.12.59:919][413]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 9.53% of total time (compiled   29 times, average 0.65 sec, max 3.29 sec, min 0.26 sec)
+[2026.04.06-01.12.59:919][413]LogShaderCompilers: Display:                                                  FVelocityPS - 7.15% of total time (compiled   23 times, average 0.62 sec, max 0.83 sec, min 0.39 sec)
+[2026.04.06-01.12.59:919][413]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight - 7.12% of total time (compiled   25 times, average 0.57 sec, max 1.50 sec, min 0.30 sec)
+[2026.04.06-01.12.59:919][413]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 5.86% of total time (compiled   25 times, average 0.47 sec, max 2.03 sec, min 0.15 sec)
+[2026.04.06-01.12.59:919][413]LogShaderCompilers: Display: === Material stats ===
+[2026.04.06-01.12.59:919][413]LogShaderCompilers: Display: Materials Cooked:        0
+[2026.04.06-01.12.59:919][413]LogShaderCompilers: Display: Materials Translated:    143
+[2026.04.06-01.12.59:919][413]LogShaderCompilers: Display: Material Total Translate Time: 0.18 s
+[2026.04.06-01.12.59:919][413]LogShaderCompilers: Display: Material Translation Only: 0.10 s (55%)
+[2026.04.06-01.12.59:919][413]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (0%)
+[2026.04.06-01.12.59:919][413]LogShaderCompilers: Display: Material Cache Hits: 0 (0%)
+[2026.04.06-01.12.59:919][413]LogShaderCompilers: Display: ================================================
+[2026.04.06-01.14.05:952][935]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.04.06-01.14.05:999][935]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Metasound/MSS_Music] ([1] browsable assets)...
+[2026.04.06-01.14.05:999][935]OBJ SavePackage: Finished generating thumbnails for package [/Game/Metasound/MSS_Music]
+[2026.04.06-01.14.05:999][935]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Metasound/MSS_Music" FILE="../../../../../College/Projects/797/Focus Project/metasound/generative_music/Content/Metasound/MSS_Music.uasset" SILENT=true
+[2026.04.06-01.14.06:013][935]LogSavePackage: Moving output files for package: /Game/Metasound/MSS_Music
+[2026.04.06-01.14.06:014][935]LogSavePackage: Moving '../../../../../College/Projects/797/Focus Project/metasound/generative_music/Saved/MSS_Music7E2A80FA44B92D2216C79D88CEF32293.tmp' to '../../../../../College/Projects/797/Focus Project/metasound/generative_music/Content/Metasound/MSS_Music.uasset'
+[2026.04.06-01.14.06:026][935]LogFileHelpers: InternalPromptForCheckoutAndSave took 73.556 ms (total: 265.832 ms)
+[2026.04.06-01.14.06:064][935]LogContentValidation: Display: Starting to validate 1 assets
+[2026.04.06-01.14.06:065][935]LogContentValidation: Enabled validators:
+[2026.04.06-01.14.06:065][935]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.04.06-01.14.06:065][935]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.04.06-01.14.06:065][935]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.04.06-01.14.06:065][935]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.04.06-01.14.06:065][935]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.04.06-01.14.06:065][935]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.04.06-01.14.06:065][935]AssetCheck: /Game/Metasound/MSS_Music Validating asset
+[2026.04.06-01.14.57:821][894]LogSlate: Window 'Color Picker' being destroyed
+[2026.04.06-01.15.10:491][378]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 685.639709
+[2026.04.06-01.15.10:624][394]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.04.06-01.15.10:624][394]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 685.764099, Update Interval: 344.554565
+[2026.04.06-01.18.31:919][749]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.04.06-01.18.31:971][749]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Metasound/MSS_Music] ([1] browsable assets)...
+[2026.04.06-01.18.31:971][749]OBJ SavePackage: Finished generating thumbnails for package [/Game/Metasound/MSS_Music]
+[2026.04.06-01.18.31:971][749]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Metasound/MSS_Music" FILE="../../../../../College/Projects/797/Focus Project/metasound/generative_music/Content/Metasound/MSS_Music.uasset" SILENT=true
+[2026.04.06-01.18.31:990][749]LogSavePackage: Moving output files for package: /Game/Metasound/MSS_Music
+[2026.04.06-01.18.31:990][749]LogSavePackage: Moving '../../../../../College/Projects/797/Focus Project/metasound/generative_music/Saved/MSS_Music40AEB40B4C815CA7AFAA41A3E8436518.tmp' to '../../../../../College/Projects/797/Focus Project/metasound/generative_music/Content/Metasound/MSS_Music.uasset'
+[2026.04.06-01.18.31:997][749]LogFileHelpers: InternalPromptForCheckoutAndSave took 78.630 ms (total: 344.462 ms)
+[2026.04.06-01.18.32:049][749]LogContentValidation: Display: Starting to validate 1 assets
+[2026.04.06-01.18.32:049][749]LogContentValidation: Enabled validators:
+[2026.04.06-01.18.32:049][749]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.04.06-01.18.32:049][749]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.04.06-01.18.32:049][749]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.04.06-01.18.32:050][749]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.04.06-01.18.32:050][749]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.04.06-01.18.32:050][749]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.04.06-01.18.32:050][749]AssetCheck: /Game/Metasound/MSS_Music Validating asset
+[2026.04.06-01.19.27:816][157]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.04.06-01.19.27:858][157]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Metasound/MSS_Music] ([1] browsable assets)...
+[2026.04.06-01.19.27:858][157]OBJ SavePackage: Finished generating thumbnails for package [/Game/Metasound/MSS_Music]
+[2026.04.06-01.19.27:858][157]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Metasound/MSS_Music" FILE="../../../../../College/Projects/797/Focus Project/metasound/generative_music/Content/Metasound/MSS_Music.uasset" SILENT=true
+[2026.04.06-01.19.27:877][157]LogSavePackage: Moving output files for package: /Game/Metasound/MSS_Music
+[2026.04.06-01.19.27:878][157]LogSavePackage: Moving '../../../../../College/Projects/797/Focus Project/metasound/generative_music/Saved/MSS_MusicB5D636A3462582C1B63D04A6D99FB525.tmp' to '../../../../../College/Projects/797/Focus Project/metasound/generative_music/Content/Metasound/MSS_Music.uasset'
+[2026.04.06-01.19.27:886][157]LogFileHelpers: InternalPromptForCheckoutAndSave took 69.924 ms (total: 414.386 ms)
+[2026.04.06-01.19.27:937][157]LogContentValidation: Display: Starting to validate 1 assets
+[2026.04.06-01.19.27:937][157]LogContentValidation: Enabled validators:
+[2026.04.06-01.19.27:937][157]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.04.06-01.19.27:937][157]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.04.06-01.19.27:937][157]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.04.06-01.19.27:937][157]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.04.06-01.19.27:937][157]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.04.06-01.19.27:937][157]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.04.06-01.19.27:937][157]AssetCheck: /Game/Metasound/MSS_Music Validating asset
+[2026.04.06-01.20.12:438][ 57]LogSlate: Window 'Color Picker' being destroyed
+[2026.04.06-01.20.25:822][440]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2026.04.06-01.20.46:119][106]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2026.04.06-01.20.46:120][106]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ThirdPerson/Lvl_ThirdPerson' took 0.034
+[2026.04.06-01.20.46:121][106]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Metasound/MSS_Music] ([1] browsable assets)...
+[2026.04.06-01.20.46:121][106]OBJ SavePackage: Finished generating thumbnails for package [/Game/Metasound/MSS_Music]
+[2026.04.06-01.20.46:140][106]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Metasound/MSS_Music_Auto1
+[2026.04.06-01.20.46:140][106]LogSavePackage: Moving '../../../../../College/Projects/797/Focus Project/metasound/generative_music/Saved/MSS_Music_Auto1889013094836E97B6E4E66916EAC3863.tmp' to '../../../../../College/Projects/797/Focus Project/metasound/generative_music/Saved/Autosaves/Game/Metasound/MSS_Music_Auto1.uasset'
+[2026.04.06-01.20.46:141][106]LogFileHelpers: Auto-saving content packages took 0.020
+[2026.04.06-01.20.59:666][629]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1034.816528
+[2026.04.06-01.20.59:790][644]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.04.06-01.20.59:790][644]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1034.932251, Update Interval: 351.465210
+[2026.04.06-01.26.45:774][654]LogSlate: Window 'Color Picker' being destroyed
+[2026.04.06-01.27.06:887][ 71]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1402.040894
+[2026.04.06-01.27.07:062][ 92]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.04.06-01.27.07:062][ 93]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1402.207520, Update Interval: 359.132050
+[2026.04.06-01.27.21:129][675]LogSlate: Window 'Color Picker' being destroyed
+[2026.04.06-01.29.46:968][129]LogSlate: Window 'Color Picker' being destroyed
+[2026.04.06-01.30.53:441][764]LogSlate: Window 'Color Picker' being destroyed
+[2026.04.06-01.31.19:651][792]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.04.06-01.31.19:694][792]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Metasound/MSS_Music] ([1] browsable assets)...
+[2026.04.06-01.31.19:694][792]OBJ SavePackage: Finished generating thumbnails for package [/Game/Metasound/MSS_Music]
+[2026.04.06-01.31.19:695][792]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Metasound/MSS_Music" FILE="../../../../../College/Projects/797/Focus Project/metasound/generative_music/Content/Metasound/MSS_Music.uasset" SILENT=true
+[2026.04.06-01.31.19:725][792]LogSavePackage: Moving output files for package: /Game/Metasound/MSS_Music
+[2026.04.06-01.31.19:725][792]LogSavePackage: Moving '../../../../../College/Projects/797/Focus Project/metasound/generative_music/Saved/MSS_MusicBD42709D4A40D35477BBB9A5A7D4C191.tmp' to '../../../../../College/Projects/797/Focus Project/metasound/generative_music/Content/Metasound/MSS_Music.uasset'
+[2026.04.06-01.31.19:732][792]LogFileHelpers: InternalPromptForCheckoutAndSave took 81.214 ms (total: 495.600 ms)
+[2026.04.06-01.31.19:791][792]LogContentValidation: Display: Starting to validate 1 assets
+[2026.04.06-01.31.19:791][792]LogContentValidation: Enabled validators:
+[2026.04.06-01.31.19:791][792]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.04.06-01.31.19:791][792]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.04.06-01.31.19:791][792]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.04.06-01.31.19:791][792]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.04.06-01.31.19:791][792]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.04.06-01.31.19:791][792]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.04.06-01.31.19:791][792]AssetCheck: /Game/Metasound/MSS_Music Validating asset
+[2026.04.06-01.32.46:825][859]LogEditorTransaction: Undo Remove MetaSound Interface 'UE.Source.OneShot v1.0'
+[2026.04.06-01.33.35:579][252]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1789.595093
+[2026.04.06-01.33.35:705][267]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.04.06-01.33.35:705][267]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1789.711792, Update Interval: 307.058929
+[2026.04.06-01.35.05:600][716]LogSlate: Window 'Color Picker' being destroyed
+[2026.04.06-01.37.21:060][544]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2026.04.06-01.38.13:205][428]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.04.06-01.38.13:268][428]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Metasound/MSS_Music] ([1] browsable assets)...
+[2026.04.06-01.38.13:268][428]OBJ SavePackage: Finished generating thumbnails for package [/Game/Metasound/MSS_Music]
+[2026.04.06-01.38.13:268][428]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Metasound/MSS_Music" FILE="../../../../../College/Projects/797/Focus Project/metasound/generative_music/Content/Metasound/MSS_Music.uasset" SILENT=true
+[2026.04.06-01.38.13:302][428]LogSavePackage: Moving output files for package: /Game/Metasound/MSS_Music
+[2026.04.06-01.38.13:303][428]LogSavePackage: Moving '../../../../../College/Projects/797/Focus Project/metasound/generative_music/Saved/MSS_Music8747363242A076E0CCCBB087B3B0BB64.tmp' to '../../../../../College/Projects/797/Focus Project/metasound/generative_music/Content/Metasound/MSS_Music.uasset'
+[2026.04.06-01.38.13:312][428]LogFileHelpers: InternalPromptForCheckoutAndSave took 107.015 ms (total: 602.616 ms)
+[2026.04.06-01.38.13:360][428]LogContentValidation: Display: Starting to validate 1 assets
+[2026.04.06-01.38.13:360][428]LogContentValidation: Enabled validators:
+[2026.04.06-01.38.13:360][428]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.04.06-01.38.13:360][428]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.04.06-01.38.13:360][428]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.04.06-01.38.13:360][428]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.04.06-01.38.13:360][428]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.04.06-01.38.13:360][428]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.04.06-01.38.13:360][428]AssetCheck: /Game/Metasound/MSS_Music Validating asset
+[2026.04.06-01.39.01:535][385]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2026.04.06-01.39.26:182][240]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.04.06-01.39.26:227][240]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Metasound/MSS_Music] ([1] browsable assets)...
+[2026.04.06-01.39.26:227][240]OBJ SavePackage: Finished generating thumbnails for package [/Game/Metasound/MSS_Music]
+[2026.04.06-01.39.26:227][240]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Metasound/MSS_Music" FILE="../../../../../College/Projects/797/Focus Project/metasound/generative_music/Content/Metasound/MSS_Music.uasset" SILENT=true
+[2026.04.06-01.39.26:261][240]LogSavePackage: Moving output files for package: /Game/Metasound/MSS_Music
+[2026.04.06-01.39.26:261][240]LogSavePackage: Moving '../../../../../College/Projects/797/Focus Project/metasound/generative_music/Saved/MSS_Music145938FD4145A79EC252E69855B7F50C.tmp' to '../../../../../College/Projects/797/Focus Project/metasound/generative_music/Content/Metasound/MSS_Music.uasset'
+[2026.04.06-01.39.26:269][240]LogFileHelpers: InternalPromptForCheckoutAndSave took 87.098 ms (total: 689.714 ms)
+[2026.04.06-01.39.26:318][240]LogContentValidation: Display: Starting to validate 1 assets
+[2026.04.06-01.39.26:319][240]LogContentValidation: Enabled validators:
+[2026.04.06-01.39.26:319][240]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.04.06-01.39.26:319][240]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.04.06-01.39.26:319][240]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.04.06-01.39.26:319][240]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.04.06-01.39.26:319][240]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.04.06-01.39.26:319][240]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.04.06-01.39.26:319][240]AssetCheck: /Game/Metasound/MSS_Music Validating asset
+[2026.04.06-01.39.30:768][741]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2144.796631
+[2026.04.06-01.39.30:952][763]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.04.06-01.39.30:952][763]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2144.971191, Update Interval: 335.267181
+[2026.04.06-01.39.41:545][  3]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.04.06-01.39.41:592][  3]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Metasound/MSS_Music] ([1] browsable assets)...
+[2026.04.06-01.39.41:592][  3]OBJ SavePackage: Finished generating thumbnails for package [/Game/Metasound/MSS_Music]
+[2026.04.06-01.39.41:592][  3]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Metasound/MSS_Music" FILE="../../../../../College/Projects/797/Focus Project/metasound/generative_music/Content/Metasound/MSS_Music.uasset" SILENT=true
+[2026.04.06-01.39.41:625][  3]LogSavePackage: Moving output files for package: /Game/Metasound/MSS_Music
+[2026.04.06-01.39.41:626][  3]LogSavePackage: Moving '../../../../../College/Projects/797/Focus Project/metasound/generative_music/Saved/MSS_Music2EACBD084A1E7C3BA1C823A6EDB21C12.tmp' to '../../../../../College/Projects/797/Focus Project/metasound/generative_music/Content/Metasound/MSS_Music.uasset'
+[2026.04.06-01.39.41:636][  3]LogFileHelpers: InternalPromptForCheckoutAndSave took 90.321 ms (total: 780.035 ms)
+[2026.04.06-01.39.41:685][  3]LogContentValidation: Display: Starting to validate 1 assets
+[2026.04.06-01.39.41:685][  3]LogContentValidation: Enabled validators:
+[2026.04.06-01.39.41:685][  3]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.04.06-01.39.41:685][  3]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.04.06-01.39.41:685][  3]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.04.06-01.39.41:685][  3]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.04.06-01.39.41:685][  3]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.04.06-01.39.41:685][  3]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.04.06-01.39.41:685][  3]AssetCheck: /Game/Metasound/MSS_Music Validating asset
+[2026.04.06-01.39.52:389][253]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.04.06-01.39.52:435][253]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Metasound/MSS_Music] ([1] browsable assets)...
+[2026.04.06-01.39.52:435][253]OBJ SavePackage: Finished generating thumbnails for package [/Game/Metasound/MSS_Music]
+[2026.04.06-01.39.52:435][253]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Metasound/MSS_Music" FILE="../../../../../College/Projects/797/Focus Project/metasound/generative_music/Content/Metasound/MSS_Music.uasset" SILENT=true
+[2026.04.06-01.39.52:470][253]LogSavePackage: Moving output files for package: /Game/Metasound/MSS_Music
+[2026.04.06-01.39.52:470][253]LogSavePackage: Moving '../../../../../College/Projects/797/Focus Project/metasound/generative_music/Saved/MSS_Music1CFEF2C44D8CA7B29AFF5AB3C77FC9C4.tmp' to '../../../../../College/Projects/797/Focus Project/metasound/generative_music/Content/Metasound/MSS_Music.uasset'
+[2026.04.06-01.39.52:477][253]LogFileHelpers: InternalPromptForCheckoutAndSave took 89.011 ms (total: 869.047 ms)
+[2026.04.06-01.39.52:532][253]LogContentValidation: Display: Starting to validate 1 assets
+[2026.04.06-01.39.52:532][253]LogContentValidation: Enabled validators:
+[2026.04.06-01.39.52:532][253]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.04.06-01.39.52:532][253]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.04.06-01.39.52:532][253]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.04.06-01.39.52:532][253]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.04.06-01.39.52:532][253]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.04.06-01.39.52:532][253]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.04.06-01.39.52:532][253]AssetCheck: /Game/Metasound/MSS_Music Validating asset
+[2026.04.06-01.40.59:543][908]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.04.06-01.40.59:594][908]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Metasound/MSS_Music] ([1] browsable assets)...
+[2026.04.06-01.40.59:594][908]OBJ SavePackage: Finished generating thumbnails for package [/Game/Metasound/MSS_Music]
+[2026.04.06-01.40.59:594][908]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Metasound/MSS_Music" FILE="../../../../../College/Projects/797/Focus Project/metasound/generative_music/Content/Metasound/MSS_Music.uasset" SILENT=true
+[2026.04.06-01.40.59:628][908]LogSavePackage: Moving output files for package: /Game/Metasound/MSS_Music
+[2026.04.06-01.40.59:629][908]LogSavePackage: Moving '../../../../../College/Projects/797/Focus Project/metasound/generative_music/Saved/MSS_MusicFF090F47402FF36245AE9AB66998236A.tmp' to '../../../../../College/Projects/797/Focus Project/metasound/generative_music/Content/Metasound/MSS_Music.uasset'
+[2026.04.06-01.40.59:636][908]LogFileHelpers: InternalPromptForCheckoutAndSave took 93.654 ms (total: 962.701 ms)
+[2026.04.06-01.40.59:687][908]LogContentValidation: Display: Starting to validate 1 assets
+[2026.04.06-01.40.59:687][908]LogContentValidation: Enabled validators:
+[2026.04.06-01.40.59:687][908]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.04.06-01.40.59:687][908]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.04.06-01.40.59:687][908]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.04.06-01.40.59:687][908]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.04.06-01.40.59:687][908]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.04.06-01.40.59:687][908]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.04.06-01.40.59:687][908]AssetCheck: /Game/Metasound/MSS_Music Validating asset
+[2026.04.06-01.41.09:693][ 49]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.04.06-01.41.09:743][ 49]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Metasound/MSS_Music] ([1] browsable assets)...
+[2026.04.06-01.41.09:743][ 49]OBJ SavePackage: Finished generating thumbnails for package [/Game/Metasound/MSS_Music]
+[2026.04.06-01.41.09:743][ 49]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Metasound/MSS_Music" FILE="../../../../../College/Projects/797/Focus Project/metasound/generative_music/Content/Metasound/MSS_Music.uasset" SILENT=true
+[2026.04.06-01.41.09:777][ 49]LogSavePackage: Moving output files for package: /Game/Metasound/MSS_Music
+[2026.04.06-01.41.09:777][ 49]LogSavePackage: Moving '../../../../../College/Projects/797/Focus Project/metasound/generative_music/Saved/MSS_MusicE0A6E9A14F77019D638572A1BF82FED5.tmp' to '../../../../../College/Projects/797/Focus Project/metasound/generative_music/Content/Metasound/MSS_Music.uasset'
+[2026.04.06-01.41.09:786][ 49]LogFileHelpers: InternalPromptForCheckoutAndSave took 93.490 ms (total: 1.05 sec)
+[2026.04.06-01.41.09:837][ 49]LogContentValidation: Display: Starting to validate 1 assets
+[2026.04.06-01.41.09:837][ 49]LogContentValidation: Enabled validators:
+[2026.04.06-01.41.09:837][ 49]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.04.06-01.41.09:837][ 49]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.04.06-01.41.09:837][ 49]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.04.06-01.41.09:837][ 49]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.04.06-01.41.09:837][ 49]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.04.06-01.41.09:837][ 49]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.04.06-01.41.09:837][ 49]AssetCheck: /Game/Metasound/MSS_Music Validating asset
+[2026.04.06-01.41.24:476][679]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.04.06-01.41.24:521][679]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Metasound/MSS_Music] ([1] browsable assets)...
+[2026.04.06-01.41.24:522][679]OBJ SavePackage: Finished generating thumbnails for package [/Game/Metasound/MSS_Music]
+[2026.04.06-01.41.24:522][679]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Metasound/MSS_Music" FILE="../../../../../College/Projects/797/Focus Project/metasound/generative_music/Content/Metasound/MSS_Music.uasset" SILENT=true
+[2026.04.06-01.41.24:557][679]LogSavePackage: Moving output files for package: /Game/Metasound/MSS_Music
+[2026.04.06-01.41.24:558][679]LogSavePackage: Moving '../../../../../College/Projects/797/Focus Project/metasound/generative_music/Saved/MSS_Music351092E048AD6CEECEEBFA949AAB622A.tmp' to '../../../../../College/Projects/797/Focus Project/metasound/generative_music/Content/Metasound/MSS_Music.uasset'
+[2026.04.06-01.41.24:567][679]LogFileHelpers: InternalPromptForCheckoutAndSave took 90.070 ms (total: 1.14 sec)
+[2026.04.06-01.41.24:615][679]LogContentValidation: Display: Starting to validate 1 assets
+[2026.04.06-01.41.24:615][679]LogContentValidation: Enabled validators:
+[2026.04.06-01.41.24:615][679]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.04.06-01.41.24:615][679]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.04.06-01.41.24:615][679]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.04.06-01.41.24:615][679]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.04.06-01.41.24:615][679]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.04.06-01.41.24:615][679]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.04.06-01.41.24:615][679]AssetCheck: /Game/Metasound/MSS_Music Validating asset
+[2026.04.06-01.41.35:557][866]LogPropertyNode: Warning: One or more of the properties in category "Effects" was not copied:
+Source
+Submix
+[2026.04.06-01.41.47:260][170]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.04.06-01.41.47:306][170]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Metasound/MSS_Music] ([1] browsable assets)...
+[2026.04.06-01.41.47:306][170]OBJ SavePackage: Finished generating thumbnails for package [/Game/Metasound/MSS_Music]
+[2026.04.06-01.41.47:306][170]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Metasound/MSS_Music" FILE="../../../../../College/Projects/797/Focus Project/metasound/generative_music/Content/Metasound/MSS_Music.uasset" SILENT=true
+[2026.04.06-01.41.47:341][170]LogSavePackage: Moving output files for package: /Game/Metasound/MSS_Music
+[2026.04.06-01.41.47:341][170]LogSavePackage: Moving '../../../../../College/Projects/797/Focus Project/metasound/generative_music/Saved/MSS_MusicC6510FA94C43F62E60A8E38C5882DDC0.tmp' to '../../../../../College/Projects/797/Focus Project/metasound/generative_music/Content/Metasound/MSS_Music.uasset'
+[2026.04.06-01.41.47:350][170]LogFileHelpers: InternalPromptForCheckoutAndSave took 89.549 ms (total: 1.23 sec)
+[2026.04.06-01.41.47:397][170]LogContentValidation: Display: Starting to validate 1 assets
+[2026.04.06-01.41.47:397][170]LogContentValidation: Enabled validators:
+[2026.04.06-01.41.47:397][170]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.04.06-01.41.47:398][170]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.04.06-01.41.47:398][170]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.04.06-01.41.47:398][170]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.04.06-01.41.47:398][170]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.04.06-01.41.47:398][170]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.04.06-01.41.47:398][170]AssetCheck: /Game/Metasound/MSS_Music Validating asset
+[2026.04.06-01.42.13:851][ 99]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.04.06-01.42.13:899][ 99]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Metasound/MSS_Music] ([1] browsable assets)...
+[2026.04.06-01.42.13:900][ 99]OBJ SavePackage: Finished generating thumbnails for package [/Game/Metasound/MSS_Music]
+[2026.04.06-01.42.13:900][ 99]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Metasound/MSS_Music" FILE="../../../../../College/Projects/797/Focus Project/metasound/generative_music/Content/Metasound/MSS_Music.uasset" SILENT=true
+[2026.04.06-01.42.13:934][ 99]LogSavePackage: Moving output files for package: /Game/Metasound/MSS_Music
+[2026.04.06-01.42.13:934][ 99]LogSavePackage: Moving '../../../../../College/Projects/797/Focus Project/metasound/generative_music/Saved/MSS_MusicB0AE400E4E73F21AEFBD2FB891268663.tmp' to '../../../../../College/Projects/797/Focus Project/metasound/generative_music/Content/Metasound/MSS_Music.uasset'
+[2026.04.06-01.42.13:944][ 99]LogFileHelpers: InternalPromptForCheckoutAndSave took 92.173 ms (total: 1.32 sec)
+[2026.04.06-01.42.13:997][ 99]LogContentValidation: Display: Starting to validate 1 assets
+[2026.04.06-01.42.13:997][ 99]LogContentValidation: Enabled validators:
+[2026.04.06-01.42.13:997][ 99]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.04.06-01.42.13:997][ 99]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.04.06-01.42.13:997][ 99]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.04.06-01.42.13:997][ 99]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.04.06-01.42.13:997][ 99]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.04.06-01.42.13:997][ 99]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.04.06-01.42.13:997][ 99]AssetCheck: /Game/Metasound/MSS_Music Validating asset
+[2026.04.06-01.42.26:490][427]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.04.06-01.42.26:546][427]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Metasound/MSS_Music] ([1] browsable assets)...
+[2026.04.06-01.42.26:546][427]OBJ SavePackage: Finished generating thumbnails for package [/Game/Metasound/MSS_Music]
+[2026.04.06-01.42.26:546][427]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Metasound/MSS_Music" FILE="../../../../../College/Projects/797/Focus Project/metasound/generative_music/Content/Metasound/MSS_Music.uasset" SILENT=true
+[2026.04.06-01.42.26:579][427]LogSavePackage: Moving output files for package: /Game/Metasound/MSS_Music
+[2026.04.06-01.42.26:580][427]LogSavePackage: Moving '../../../../../College/Projects/797/Focus Project/metasound/generative_music/Saved/MSS_MusicA65668EC4294C4E43DDAE2999EEE4452.tmp' to '../../../../../College/Projects/797/Focus Project/metasound/generative_music/Content/Metasound/MSS_Music.uasset'
+[2026.04.06-01.42.26:588][427]LogFileHelpers: InternalPromptForCheckoutAndSave took 97.285 ms (total: 1.42 sec)
+[2026.04.06-01.42.26:637][427]LogContentValidation: Display: Starting to validate 1 assets
+[2026.04.06-01.42.26:637][427]LogContentValidation: Enabled validators:
+[2026.04.06-01.42.26:637][427]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.04.06-01.42.26:637][427]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.04.06-01.42.26:637][427]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.04.06-01.42.26:637][427]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.04.06-01.42.26:637][427]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.04.06-01.42.26:637][427]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.04.06-01.42.26:637][427]AssetCheck: /Game/Metasound/MSS_Music Validating asset
+[2026.04.06-01.42.34:409][171]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_0
+[2026.04.06-01.42.35:538][243]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_1
+[2026.04.06-01.42.44:330][140]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.04.06-01.42.44:376][140]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Metasound/MSS_Music] ([1] browsable assets)...
+[2026.04.06-01.42.44:376][140]OBJ SavePackage: Finished generating thumbnails for package [/Game/Metasound/MSS_Music]
+[2026.04.06-01.42.44:376][140]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Metasound/MSS_Music" FILE="../../../../../College/Projects/797/Focus Project/metasound/generative_music/Content/Metasound/MSS_Music.uasset" SILENT=true
+[2026.04.06-01.42.44:409][140]LogSavePackage: Moving output files for package: /Game/Metasound/MSS_Music
+[2026.04.06-01.42.44:410][140]LogSavePackage: Moving '../../../../../College/Projects/797/Focus Project/metasound/generative_music/Saved/MSS_Music77348A2F4CAF10B7B6B3498A5674739E.tmp' to '../../../../../College/Projects/797/Focus Project/metasound/generative_music/Content/Metasound/MSS_Music.uasset'
+[2026.04.06-01.42.44:417][140]LogFileHelpers: InternalPromptForCheckoutAndSave took 86.700 ms (total: 1.51 sec)
+[2026.04.06-01.42.44:470][140]LogContentValidation: Display: Starting to validate 1 assets
+[2026.04.06-01.42.44:470][140]LogContentValidation: Enabled validators:
+[2026.04.06-01.42.44:470][140]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.04.06-01.42.44:470][140]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.04.06-01.42.44:470][140]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.04.06-01.42.44:470][140]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.04.06-01.42.44:470][140]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.04.06-01.42.44:470][140]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.04.06-01.42.44:470][140]AssetCheck: /Game/Metasound/MSS_Music Validating asset
+[2026.04.06-01.42.53:088][ 76]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.04.06-01.42.53:139][ 76]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Metasound/MSS_Music] ([1] browsable assets)...
+[2026.04.06-01.42.53:139][ 76]OBJ SavePackage: Finished generating thumbnails for package [/Game/Metasound/MSS_Music]
+[2026.04.06-01.42.53:139][ 76]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Metasound/MSS_Music" FILE="../../../../../College/Projects/797/Focus Project/metasound/generative_music/Content/Metasound/MSS_Music.uasset" SILENT=true
+[2026.04.06-01.42.53:173][ 76]LogSavePackage: Moving output files for package: /Game/Metasound/MSS_Music
+[2026.04.06-01.42.53:174][ 76]LogSavePackage: Moving '../../../../../College/Projects/797/Focus Project/metasound/generative_music/Saved/MSS_Music7F3081154308BB0D782BBC9C8E4206D5.tmp' to '../../../../../College/Projects/797/Focus Project/metasound/generative_music/Content/Metasound/MSS_Music.uasset'
+[2026.04.06-01.42.53:183][ 76]LogFileHelpers: InternalPromptForCheckoutAndSave took 95.248 ms (total: 1.60 sec)
+[2026.04.06-01.42.53:234][ 76]LogContentValidation: Display: Starting to validate 1 assets
+[2026.04.06-01.42.53:234][ 76]LogContentValidation: Enabled validators:
+[2026.04.06-01.42.53:234][ 76]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.04.06-01.42.53:234][ 76]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.04.06-01.42.53:234][ 76]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.04.06-01.42.53:234][ 76]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.04.06-01.42.53:234][ 76]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.04.06-01.42.53:234][ 76]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.04.06-01.42.53:234][ 76]AssetCheck: /Game/Metasound/MSS_Music Validating asset
+[2026.04.06-01.42.59:609][786]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.04.06-01.42.59:661][786]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Metasound/MSS_Music] ([1] browsable assets)...
+[2026.04.06-01.42.59:661][786]OBJ SavePackage: Finished generating thumbnails for package [/Game/Metasound/MSS_Music]
+[2026.04.06-01.42.59:661][786]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Metasound/MSS_Music" FILE="../../../../../College/Projects/797/Focus Project/metasound/generative_music/Content/Metasound/MSS_Music.uasset" SILENT=true
+[2026.04.06-01.42.59:696][786]LogSavePackage: Moving output files for package: /Game/Metasound/MSS_Music
+[2026.04.06-01.42.59:696][786]LogSavePackage: Moving '../../../../../College/Projects/797/Focus Project/metasound/generative_music/Saved/MSS_Music12B472754A52F21CF6174DA8BEC1EFC4.tmp' to '../../../../../College/Projects/797/Focus Project/metasound/generative_music/Content/Metasound/MSS_Music.uasset'
+[2026.04.06-01.42.59:703][786]LogFileHelpers: InternalPromptForCheckoutAndSave took 94.414 ms (total: 1.70 sec)
+[2026.04.06-01.42.59:755][786]LogContentValidation: Display: Starting to validate 1 assets
+[2026.04.06-01.42.59:755][786]LogContentValidation: Enabled validators:
+[2026.04.06-01.42.59:755][786]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.04.06-01.42.59:755][786]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.04.06-01.42.59:755][786]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.04.06-01.42.59:755][786]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.04.06-01.42.59:755][786]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.04.06-01.42.59:755][786]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.04.06-01.42.59:755][786]AssetCheck: /Game/Metasound/MSS_Music Validating asset
+[2026.04.06-01.43.01:341][953]LogShaderCompilers: Display: ================================================
+[2026.04.06-01.43.01:341][953]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2026.04.06-01.43.01:341][953]LogShaderCompilers: Display: Total job queries 2,552, among them cache hits 22 (0.86%), DDC hits 1,460 (57.21%), Duplicates 719 (28.17%)
+[2026.04.06-01.43.01:341][953]LogShaderCompilers: Display: Tracking 1,811 distinct input hashes that result in 1,140 distinct outputs (62.95%)
+[2026.04.06-01.43.01:341][953]LogShaderCompilers: Display: RAM used: 11.68 MiB of 3.20 GiB budget. Usage: 0.36%
+[2026.04.06-01.43.01:341][953]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2026.04.06-01.43.01:341][953]LogShaderCompilers: Display: Shaders Compiled: 351
+[2026.04.06-01.43.01:341][953]LogShaderCompilers: Display: Jobs assigned 351, completed 351 (100%)
+[2026.04.06-01.43.01:341][953]LogShaderCompilers: Display: Average time worker was idle: 45.34 s
+[2026.04.06-01.43.01:341][953]LogShaderCompilers: Display: Time job spent in pending queue: average 6.14 s, longest 16.99 s
+[2026.04.06-01.43.01:341][953]LogShaderCompilers: Display: Job execution time: average 3.70 s, max 9.71 s
+[2026.04.06-01.43.01:341][953]LogShaderCompilers: Display: Job life time (pending + execution): average 9.84 s, max 17.70
+[2026.04.06-01.43.01:341][953]LogShaderCompilers: Display: Shader code size: total 3.484 MiB, numShaders 374, average 9.541 KiB, min 2.246 KiB, max 51.403 KiB
+[2026.04.06-01.43.01:341][953]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 46.04 s
+[2026.04.06-01.43.01:341][953]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.09%
+[2026.04.06-01.43.01:341][953]LogShaderCompilers: Display: Jobs were issued in 114 batches (only local compilation was used), average 3.08 jobs/batch
+[2026.04.06-01.43.01:341][953]LogShaderCompilers: Display: Average processing rate: 7.62 jobs/sec
+[2026.04.06-01.43.01:341][953]LogShaderCompilers: Display: Total thread time: 199.973 s
+[2026.04.06-01.43.01:341][953]LogShaderCompilers: Display: Total thread preprocess time: 30.417 s
+[2026.04.06-01.43.01:341][953]LogShaderCompilers: Display: Percentage time preprocessing: 15.21%
+[2026.04.06-01.43.01:341][953]LogShaderCompilers: Display: Effective parallelization: 4.34 (times faster than compiling all shaders on one thread). Compare with number of workers: 8 - 0.542966
+[2026.04.06-01.43.01:341][953]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2026.04.06-01.43.01:341][953]LogShaderCompilers: Display:                          FPathTracingVolumetricCloudMaterial (compiled    1 times, average 5.29 sec, max 5.29 sec, min 5.29 sec)
+[2026.04.06-01.43.01:341][953]LogShaderCompilers: Display:                         TBasePassCSFNoLightMapPolicySkylight (compiled    1 times, average 2.13 sec, max 2.13 sec, min 2.13 sec)
+[2026.04.06-01.43.01:341][953]LogShaderCompilers: Display:                                 TBasePassCSFNoLightMapPolicy (compiled    1 times, average 2.13 sec, max 2.13 sec, min 2.13 sec)
+[2026.04.06-01.43.01:341][953]LogShaderCompilers: Display:                              FRayTracingDecalMaterialCHS_AHS (compiled    2 times, average 1.95 sec, max 2.06 sec, min 1.83 sec)
+[2026.04.06-01.43.01:341][953]LogShaderCompilers: Display:                      FPathTracingBuildCloudAccelerationMapCS (compiled    1 times, average 1.77 sec, max 1.77 sec, min 1.77 sec)
+[2026.04.06-01.43.01:341][953]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2026.04.06-01.43.01:341][953]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy - 12.37% of total time (compiled   16 times, average 1.55 sec, max 4.16 sec, min 0.74 sec)
+[2026.04.06-01.43.01:341][953]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 9.67% of total time (compiled   30 times, average 0.64 sec, max 3.29 sec, min 0.26 sec)
+[2026.04.06-01.43.01:341][953]LogShaderCompilers: Display:                                                  FVelocityPS - 7.11% of total time (compiled   23 times, average 0.62 sec, max 0.83 sec, min 0.39 sec)
+[2026.04.06-01.43.01:341][953]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight - 7.08% of total time (compiled   25 times, average 0.57 sec, max 1.50 sec, min 0.30 sec)
+[2026.04.06-01.43.01:341][953]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 5.82% of total time (compiled   25 times, average 0.47 sec, max 2.03 sec, min 0.15 sec)
+[2026.04.06-01.43.01:341][953]LogShaderCompilers: Display: === Material stats ===
+[2026.04.06-01.43.01:341][953]LogShaderCompilers: Display: Materials Cooked:        0
+[2026.04.06-01.43.01:341][953]LogShaderCompilers: Display: Materials Translated:    143
+[2026.04.06-01.43.01:341][953]LogShaderCompilers: Display: Material Total Translate Time: 0.18 s
+[2026.04.06-01.43.01:341][953]LogShaderCompilers: Display: Material Translation Only: 0.10 s (55%)
+[2026.04.06-01.43.01:341][953]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (0%)
+[2026.04.06-01.43.01:341][953]LogShaderCompilers: Display: Material Cache Hits: 0 (0%)
+[2026.04.06-01.43.01:341][953]LogShaderCompilers: Display: ================================================
+[2026.04.06-01.43.03:363][128]LogActorFactory: Actor Factory attempting to spawn MetaSoundSource /Game/Metasound/MSS_Music.MSS_Music
+[2026.04.06-01.43.03:363][128]LogActorFactory: Actor Factory attempting to spawn MetaSoundSource /Game/Metasound/MSS_Music.MSS_Music
+[2026.04.06-01.43.03:364][128]LogStreaming: Display: FlushAsyncLoading(398): 1 QueuedPackages, 0 AsyncPackages
+[2026.04.06-01.43.03:365][128]LogActorFactory: Actor Factory spawned MetaSoundSource /Game/Metasound/MSS_Music.MSS_Music as actor: AmbientSound /Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.AmbientSound_0
+[2026.04.06-01.43.03:365][128]LogActorFactory: Actor Factory spawned MetaSoundSource /Game/Metasound/MSS_Music.MSS_Music as actor: AmbientSound /Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.AmbientSound_0
+[2026.04.06-01.43.05:983][319]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2026.04.06-01.43.05:987][319]LogEditorActor: Deleted 0 Actors (0.083 secs)
+[2026.04.06-01.43.05:993][319]LogActorFactory: Actor Factory attempting to spawn MetaSoundSource /Game/Metasound/MSS_Music.MSS_Music
+[2026.04.06-01.43.05:993][319]LogActorFactory: Actor Factory attempting to spawn MetaSoundSource /Game/Metasound/MSS_Music.MSS_Music
+[2026.04.06-01.43.05:995][319]LogActorFactory: Actor Factory spawned MetaSoundSource /Game/Metasound/MSS_Music.MSS_Music as actor: AmbientSound /Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.AmbientSound_UAID_D85ED3E7893DD2CE02_1836765991
+[2026.04.06-01.43.05:995][319]LogActorFactory: Actor Factory spawned MetaSoundSource /Game/Metasound/MSS_Music.MSS_Music as actor: AmbientSound /Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.AmbientSound_UAID_D85ED3E7893DD2CE02_1836765991
+[2026.04.06-01.43.07:318][426]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.04.06-01.43.07:323][426]LogContentBundle: [Lvl_ThirdPerson(Editor)] Generating Streaming for 0 Content Bundles.
+[2026.04.06-01.43.07:323][426]LogWorldPartition: Display: GenerateStreaming for 'Lvl_ThirdPerson' started...
+[2026.04.06-01.43.07:323][426]LogWorldPartition: Display: GenerateStreaming for 'Lvl_ThirdPerson' took 724 us (total: 1.552 ms)
+[2026.04.06-01.43.07:325][426]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.04.06-01.43.07:325][426]LogPlayLevel: Display: Creating online subsystem for client :Context_4
+[2026.04.06-01.43.07:327][426]LogOnline: OSS: Created online subsystem instance for: :Context_4
+[2026.04.06-01.43.07:345][427]LogPlayLevel: Creating play world package: /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson
+[2026.04.06-01.43.07:351][427]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2026.04.06-01.43.07:351][427]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 892 us (total: 2.150 ms)
+[2026.04.06-01.43.07:351][427]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005756s)
+[2026.04.06-01.43.07:351][427]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson to /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson (0.005799s)
+[2026.04.06-01.43.07:366][427]LogUObjectHash: Compacting FUObjectHashTables data took   0.42ms
+[2026.04.06-01.43.07:369][427]LogChaosDD: Creating Chaos Debug Draw Scene for world Lvl_ThirdPerson
+[2026.04.06-01.43.07:371][427]LogWorldPartition: ULevel::OnLevelLoaded(Lvl_ThirdPerson)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2026.04.06-01.43.07:371][427]LogWorldPartition: Display: WorldPartition initialize started...
+[2026.04.06-01.43.07:371][427]LogWorldPartition: UWorldPartition::Initialize : World = /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2026.04.06-01.43.07:371][427]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2026.04.06-01.43.07:372][427]LogWorldPartition: Display: WorldPartition initialize took 1.218 ms (total: 87.781 ms)
+[2026.04.06-01.43.07:373][427]LogPlayLevel: PIE: World Init took: (0.002787s)
+[2026.04.06-01.43.07:373][427]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2026.04.06-01.43.07:373][427]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.04.06-01.43.07:373][427]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.04.06-01.43.07:373][427]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.04.06-01.43.07:373][427]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.04.06-01.43.07:373][427]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.04.06-01.43.07:373][427]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.04.06-01.43.07:373][427]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.04.06-01.43.07:373][427]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.04.06-01.43.07:373][427]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.04.06-01.43.07:374][427]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.04.06-01.43.07:374][427]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.04.06-01.43.07:375][427]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.04.06-01.43.07:429][427]LogAudioMixer: Display: Using Audio Hardware Device Speakers (2- USB Audio CODEC )
+[2026.04.06-01.43.07:429][427]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.04.06-01.43.07:429][427]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.04.06-01.43.07:429][427]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.04.06-01.43.07:430][427]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=3
+[2026.04.06-01.43.07:430][427]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=3
+[2026.04.06-01.43.07:432][427]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=3
+[2026.04.06-01.43.07:432][427]LogInit: FAudioDevice initialized with ID 3.
+[2026.04.06-01.43.07:432][427]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=3
+[2026.04.06-01.43.07:432][427]LogAudio: Display: Audio Device (ID: 3) registered with world 'Lvl_ThirdPerson'.
+[2026.04.06-01.43.07:432][427]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 3
+[2026.04.06-01.43.07:435][427]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2026.04.06-01.43.07:437][427]LogWorld: Bringing World /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson up for play (max tick rate 0) at 2026.04.05-21.43.07
+[2026.04.06-01.43.07:438][427]LogWorld: Bringing up level for play took: 0.001870
+[2026.04.06-01.43.07:442][427]PIE: Server logged in
+[2026.04.06-01.43.07:443][427]PIE: Play in editor total start time 0.121 seconds.
+[2026.04.06-01.43.07:485][428]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.04.06-01.43.24:327][ 30]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.04.06-01.43.24:328][ 30]LogWorld: BeginTearingDown for /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson
+[2026.04.06-01.43.24:328][ 30]LogWorld: UWorld::CleanupWorld for Lvl_ThirdPerson, bSessionEnded=true, bCleanupResources=true
+[2026.04.06-01.43.24:328][ 30]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.04.06-01.43.24:328][ 30]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/ThirdPerson/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson
+[2026.04.06-01.43.24:331][ 30]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.04.06-01.43.24:333][ 30]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.04.06-01.43.24:347][ 30]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.04.06-01.43.24:348][ 30]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 3
+[2026.04.06-01.43.24:348][ 30]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3, StreamState=4
+[2026.04.06-01.43.24:349][ 30]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3, StreamState=2
+[2026.04.06-01.43.24:355][ 30]LogUObjectHash: Compacting FUObjectHashTables data took   0.40ms
+[2026.04.06-01.43.24:412][ 31]LogPlayLevel: Display: Destroying online subsystem :Context_4
+[2026.04.06-01.43.33:269][570]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.04.06-01.43.33:337][570]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/2/KI/X40DA18VXLS52OCIRII0RI
+[2026.04.06-01.43.33:337][570]LogSavePackage: Moving '../../../../../College/Projects/797/Focus Project/metasound/generative_music/Saved/X40DA18VXLS52OCIRII0RI0762120A4C1720936122AD8F8262D036.tmp' to '../../../../../College/Projects/797/Focus Project/metasound/generative_music/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/2/KI/X40DA18VXLS52OCIRII0RI.uasset'
+[2026.04.06-01.43.33:347][570]LogFileHelpers: InternalPromptForCheckoutAndSave took 78.793 ms (total: 1.78 sec)
+[2026.04.06-01.43.33:393][570]LogContentValidation: Display: Starting to validate 1 assets
+[2026.04.06-01.43.33:393][570]LogContentValidation: Enabled validators:
+[2026.04.06-01.43.33:393][570]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.04.06-01.43.33:393][570]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.04.06-01.43.33:393][570]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.04.06-01.43.33:393][570]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.04.06-01.43.33:393][570]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.04.06-01.43.33:393][570]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.04.06-01.43.33:393][570]AssetCheck: /Game/ThirdPerson/Lvl_ThirdPerson Validating asset
+[2026.04.06-01.43.33:422][570]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../College/Projects/797/Focus Project/metasound/generative_music/Saved/SourceControl/UncontrolledChangelists.json
+[2026.04.06-01.43.34:303][662]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2026.04.06-01.43.34:303][662]LogStall: Shutdown...
+[2026.04.06-01.43.34:303][662]LogStall: Shutdown complete.
+[2026.04.06-01.43.34:351][662]LogSlate: Window 'generative_music - Unreal Editor' being destroyed
+[2026.04.06-01.43.34:498][662]Cmd: QUIT_EDITOR
+[2026.04.06-01.43.34:498][663]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2026.04.06-01.43.34:500][663]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2026.04.06-01.43.34:501][663]LogStaticMesh: Abandoning remaining async distance field tasks for shutdown
+[2026.04.06-01.43.34:501][663]LogStaticMesh: Abandoning remaining async card representation tasks for shutdown
+[2026.04.06-01.43.34:501][663]LogWorld: UWorld::CleanupWorld for Lvl_ThirdPerson, bSessionEnded=true, bCleanupResources=true
+[2026.04.06-01.43.34:501][663]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.04.06-01.43.34:501][663]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/ThirdPerson/Lvl_ThirdPerson.Lvl_ThirdPerson
+[2026.04.06-01.43.34:506][663]LogStylusInput: Shutting down StylusInput subsystem.
+[2026.04.06-01.43.34:506][663]LogTedsSettings: UTedsSettingsEditorSubsystem::Deinitialize
+[2026.04.06-01.43.34:506][663]LogLevelSequenceEditor: LevelSequenceEditor subsystem deinitialized.
+[2026.04.06-01.43.34:510][663]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2026.04.06-01.43.34:510][663]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.04.06-01.43.34:511][663]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2026.04.06-01.43.34:511][663]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.04.06-01.43.34:511][663]LogRuntimeTelemetry: Recording EnginePreExit events
+[2026.04.06-01.43.34:511][663]LogStudioTelemetry: Ended StudioTelemetry Session
+[2026.04.06-01.43.34:512][663]LogAnalytics: Display: [UEEditor.Rocket.Release] AnalyticsET::EndSession
+[2026.04.06-01.43.34:534][663]LogAudio: Display: Beginning Audio Device Manager Shutdown (Module: AudioMixerXAudio2)...
+[2026.04.06-01.43.34:534][663]LogAudio: Display: Destroying 1 Remaining Audio Device(s)...
+[2026.04.06-01.43.34:534][663]LogAudio: Display: Audio Device unregistered from world 'Lvl_ThirdPerson'.
+[2026.04.06-01.43.34:534][663]LogAudio: Display: Shutting down audio device while 1 references to it are still alive. For more information, compile with INSTRUMENT_AUDIODEVICE_HANDLES.
+[2026.04.06-01.43.34:534][663]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1, StreamState=4
+[2026.04.06-01.43.34:536][663]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1, StreamState=2
+[2026.04.06-01.43.34:541][663]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID -1
+[2026.04.06-01.43.34:541][663]LogAudio: Display: Audio Device Manager Shutdown
+[2026.04.06-01.43.34:543][663]LogWindowsTextInputMethodSystem: Activated input method: English (India) - (Keyboard).
+[2026.04.06-01.43.34:545][663]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2026.04.06-01.43.34:545][663]LogExit: Preparing to exit.
+[2026.04.06-01.43.34:574][663]LogUObjectHash: Compacting FUObjectHashTables data took   0.42ms
+[2026.04.06-01.43.35:679][663]LogEditorDataStorage: Deinitializing
+[2026.04.06-01.43.35:782][663]LogDemo: Cleaned up 0 splitscreen connections, owner deletion: enabled
+[2026.04.06-01.43.35:792][663]LogExit: Editor shut down
+[2026.04.06-01.43.35:793][663]LogExit: Transaction tracking system shut down
+[2026.04.06-01.43.35:877][663]LogExit: Object subsystem successfully closed.
+[2026.04.06-01.43.35:885][663]LogShaderCompilers: Display: Shaders left to compile 0
+[2026.04.06-01.43.35:916][663]LogMemoryProfiler: Shutdown
+[2026.04.06-01.43.35:916][663]LogNetworkingProfiler: Shutdown
+[2026.04.06-01.43.35:917][663]LoadingProfiler: Shutdown
+[2026.04.06-01.43.35:917][663]LogTimingProfiler: Shutdown
+[2026.04.06-01.43.35:917][663]LogChaosVDEditor: [FChaosVDExtensionsManager::UnRegisterExtension] UnRegistering CVD Extension [FChaosVDGenericDebugDrawExtension] ...
+[2026.04.06-01.43.35:917][663]LogChaosVDEditor: [FChaosVDExtensionsManager::UnRegisterExtension] UnRegistering CVD Extension [FChaosVDAccelerationStructuresExtension] ...
+[2026.04.06-01.43.36:165][663]LogChaosDD: Chaos Debug Draw Shutdown
+[2026.04.06-01.43.36:202][663]LogHttp: Warning: [FHttpManager::Shutdown] Unbinding delegates for 1 outstanding Http Requests:
+[2026.04.06-01.43.36:202][663]LogHttp: Warning: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BF8869B02-44B7-EE2A-5B03-96A93DD8C5D1%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.6.1-44394996%2B%2B%2BUE5%2BRelease-5.6&UserID=887134b94f846542eef59eb84df8862c%7C9ed4d331c6304c7faa64c68c03eadc36%7Caa019d2f-aeaa-452f-8486-791a68ef5f73&AppEnvironment=datacollector-binary&UploadType=eteventstream] refs=[2] status=Processing
+[2026.04.06-01.43.36:740][663]LogEOSShared: FEOSSDKManager::Shutdown EOS_Shutdown Result=[EOS_Success]
+[2026.04.06-01.43.36:744][663]LogNFORDenoise: NFORDenoise function shutting down
+[2026.04.06-01.43.36:744][663]RenderDocPlugin: plugin has been unloaded.
+[2026.04.06-01.43.36:746][663]LogIris: FNetObjectFactoryRegistry::UnregisterFactory is unregistering factory: None name: NetActorFactory id: 0
+[2026.04.06-01.43.36:746][663]LogIris: FNetObjectFactoryRegistry::UnregisterFactory is unregistering factory: None name: NetSubObjectFactory id: 1
+[2026.04.06-01.43.36:746][663]LogPakFile: Destroying PakPlatformFile
+[2026.04.06-01.43.37:051][663]LogD3D12RHI: ~FD3D12DynamicRHI
+[2026.04.06-01.43.37:073][663]LogExit: Exiting.
+[2026.04.06-01.43.37:086][663]Log file closed, 04/05/26 21:43:37
